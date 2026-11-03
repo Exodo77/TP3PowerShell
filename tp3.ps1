@@ -1,4 +1,4 @@
-$limite = Read-Host "Ingresá un número límite"
+﻿$limite = Read-Host "Ingresá un número límite"
 
 for ($numero = 1; $numero -le [int]$limite; $numero++) {
     $hora = Get-Date -Format "HH:mm:ss"
